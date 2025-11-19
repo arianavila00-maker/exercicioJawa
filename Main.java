@@ -64,7 +64,59 @@ public class Main
             System.out.println(" 8 "+"x " + i +" = "+ (8*i));
         }
             
-        }
+    }
+
+    public static void ex8()
+    {
+        System.out.println( "  J    a   v     v  a     ");
+        System.out.println("   J   a a   v   v  a a   ");
+        System.out.println("J  J  aaaaa   V V  aaaaa  " );
+        System.out.println(" JJ  a     a   V  a     a");
+    }
+
+    public static void ex9()
+    {
+        System.out.println((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5));
+    }
+
+    public static void ex10()
+    {
+        System.out.println(4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)));
+    }
+
+    public static void ex11()
+    {
+        Scanner sc= new Scanner(System.in);
+        double pi = 3.14159;
+        System.out.print("Insira o raio da circunferência: ");
+        int raio = sc.nextInt();
+        System.out.println("O perimetro é " + (2*pi*raio));
+        System.out.println("A área é " + (pi*raio*raio));
+    }
+
+    public static void ex12()
+    {
+        Scanner sc= new Scanner(System.in);
+        System.out.print("Insira 3 número para cacular a média: ");
+        int nb = sc.nextInt();
+        int nb1 = sc.nextInt();
+        int nb2 = sc.nextInt();
+        System.out.println("A média é "+((nb+nb1+nb2)/3));
+
+    }
+    public static void ex13()
+    {
+        Scanner sc = new Scanner(System. in);
+        System.out.print(" Insira a altura do retangulo: ");
+        double altura = sc.nextDouble();
+        System.out.print(" Insira a largura do retangulo: ");
+        double largura = sc.nextDouble();
+        System.out.println("O perímetro é " + (altura+largura)*2);
+        System.out.println("A área é " + (largura*altura));
+
+    }
+
+
 
     
     public static void main(String[] args) 
@@ -74,7 +126,14 @@ public class Main
         //ex3();
         //ex4();
         //ex6();
-        ex7();
+        //ex7();
+        //ex8();
+        //ex9();
+        //ex10();
+        //ex11();
+        //ex12();
+        ex13();
+
 
     }
 }
